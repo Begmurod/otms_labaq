@@ -1,0 +1,27 @@
+D:\гурин\Praktika3\Praktika3\bin\Debug\Praktika3.exe.config
+D:\гурин\Praktika3\Praktika3\bin\Debug\Praktika3.exe
+D:\гурин\Praktika3\Praktika3\bin\Debug\Praktika3.pdb
+D:\гурин\Praktika3\Praktika3\obj\Debug\Praktika3.csprojAssemblyReference.cache
+D:\гурин\Praktika3\Praktika3\obj\Debug\Praktika3.Form1.resources
+D:\гурин\Praktika3\Praktika3\obj\Debug\Praktika3.Properties.Resources.resources
+D:\гурин\Praktika3\Praktika3\obj\Debug\Praktika3.csproj.GenerateResource.cache
+D:\гурин\Praktika3\Praktika3\obj\Debug\Praktika3.exe
+D:\гурин\Praktika3\Praktika3\obj\Debug\Praktika3.pdb
+D:\гурин\Praktika3 — копия\Praktika3\obj\Debug\Praktika3.csprojAssemblyReference.cache
+D:\гурин\Praktika3 — копия\Praktika3\obj\Debug\Praktika3.Form1.resources
+D:\гурин\Praktika3 — копия\Praktika3\obj\Debug\Praktika3.Properties.Resources.resources
+D:\гурин\Praktika3 — копия\Praktika3\obj\Debug\Praktika3.csproj.GenerateResource.cache
+D:\гурин\Praktika3 — копия\Praktika3\obj\Debug\Praktika3.exe
+D:\гурин\Praktika3 — копия\Praktika3\obj\Debug\Praktika3.pdb
+D:\гурин\Praktika3 — копия\Praktika3\bin\Debug\Praktika3.exe.config
+D:\гурин\Praktika3 — копия\Praktika3\bin\Debug\Praktika3.exe
+D:\гурин\Praktika3 — копия\Praktika3\bin\Debug\Praktika3.pdb
+C:\Users\Бек\Desktop\Новая папка\Praktika3 — копия\Praktika3\bin\Debug\Praktika3.exe.config
+C:\Users\Бек\Desktop\Новая папка\Praktika3 — копия\Praktika3\bin\Debug\Praktika3.exe
+C:\Users\Бек\Desktop\Новая папка\Praktika3 — копия\Praktika3\bin\Debug\Praktika3.pdb
+C:\Users\Бек\Desktop\Новая папка\Praktika3 — копия\Praktika3\obj\Debug\Praktika3.csprojAssemblyReference.cache
+C:\Users\Бек\Desktop\Новая папка\Praktika3 — копия\Praktika3\obj\Debug\Praktika3.Form1.resources
+C:\Users\Бек\Desktop\Новая папка\Praktika3 — копия\Praktika3\obj\Debug\Praktika3.Properties.Resources.resources
+C:\Users\Бек\Desktop\Новая папка\Praktika3 — копия\Praktika3\obj\Debug\Praktika3.csproj.GenerateResource.cache
+C:\Users\Бек\Desktop\Новая папка\Praktika3 — копия\Praktika3\obj\Debug\Praktika3.exe
+C:\Users\Бек\Desktop\Новая папка\Praktika3 — копия\Praktika3\obj\Debug\Praktika3.pdb
