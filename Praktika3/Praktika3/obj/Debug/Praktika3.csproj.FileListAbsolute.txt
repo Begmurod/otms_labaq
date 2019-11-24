@@ -25,3 +25,12 @@ C:\Users\Бек\Desktop\Новая папка\Praktika3 — копия\Praktika3
 C:\Users\Бек\Desktop\Новая папка\Praktika3 — копия\Praktika3\obj\Debug\Praktika3.csproj.GenerateResource.cache
 C:\Users\Бек\Desktop\Новая папка\Praktika3 — копия\Praktika3\obj\Debug\Praktika3.exe
 C:\Users\Бек\Desktop\Новая папка\Praktika3 — копия\Praktika3\obj\Debug\Praktika3.pdb
+C:\Users\Бек\Desktop\Общая теория и моделирование систем лаба1\Praktika3\Praktika3\obj\Debug\Praktika3.csprojAssemblyReference.cache
+C:\Users\Бек\Desktop\Общая теория и моделирование систем лаба1\Praktika3\Praktika3\obj\Debug\Praktika3.Form1.resources
+C:\Users\Бек\Desktop\Общая теория и моделирование систем лаба1\Praktika3\Praktika3\obj\Debug\Praktika3.Properties.Resources.resources
+C:\Users\Бек\Desktop\Общая теория и моделирование систем лаба1\Praktika3\Praktika3\obj\Debug\Praktika3.csproj.GenerateResource.cache
+C:\Users\Бек\Desktop\Общая теория и моделирование систем лаба1\Praktika3\Praktika3\obj\Debug\Praktika3.exe
+C:\Users\Бек\Desktop\Общая теория и моделирование систем лаба1\Praktika3\Praktika3\obj\Debug\Praktika3.pdb
+C:\Users\Бек\Desktop\Общая теория и моделирование систем лаба1\Praktika3\Praktika3\bin\Debug\Praktika3.exe.config
+C:\Users\Бек\Desktop\Общая теория и моделирование систем лаба1\Praktika3\Praktika3\bin\Debug\Praktika3.exe
+C:\Users\Бек\Desktop\Общая теория и моделирование систем лаба1\Praktika3\Praktika3\bin\Debug\Praktika3.pdb

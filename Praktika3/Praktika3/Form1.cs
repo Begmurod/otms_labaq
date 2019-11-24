@@ -22,8 +22,7 @@ namespace Praktika3
         }
 
        
-
-        private void button1_Click(object sender, EventArgs e)
+            private void button1_Click(object sender, EventArgs e)
         {
             try
             {
@@ -67,18 +66,30 @@ namespace Praktika3
                 t1 = new double[razm];
                 t2 = new double[razm];
                 T = new double[razm];
-               
 
-                for (int i = 0; i <= Class.H * 2; i++)
+                dt.Columns.Add("Название");
+                for (int i = 1; i <= Class.H * 2+1; i++)
                 {
+                    
                     dt.Columns.Add(Convert.ToString(x));
                     x += 0.5;
                 }
+
+                
 
                 for (int i = 0; i < 8; i++)
                 {
                     dt.Rows.Add();
                 }
+
+                dt.Rows[0][0] = "Параметр Y";
+                dt.Rows[1][0] = "Параметр 1 -Exp(((M-1)*Y) / M)";
+                dt.Rows[2][0] = "Параметр 1 - M*Exp(((M-1)*Y) / M)";
+                dt.Rows[3][0] = "Параметр V";
+                dt.Rows[4][0] = "Параметр Q";
+                dt.Rows[5][0] = "Параметр t";
+                dt.Rows[6][0] = "Параметр T";
+                dt.Rows[7][0] = "Параметр Разность температур";
                 x = 0;
 
                 for (int i = 0; i <= Class.H * 2; i++)
@@ -94,45 +105,49 @@ namespace Praktika3
                     
 
                     x += 0.5;
-                    dt.Rows[0][i] = y[i];
-                    dt.Rows[1][i] = e2[i];
-                    dt.Rows[2][i] = e3[i];
-                    dt.Rows[3][i] = d1[i];
-                    dt.Rows[4][i] = d2[i];
-                    dt.Rows[5][i] = t1[i];
-                    dt.Rows[6][i] = t2[i];
-                    dt.Rows[7][i] = T[i];
+                    dt.Rows[0][i+1] = y[i];
+                    dt.Rows[1][i + 1] = e2[i];
+                    dt.Rows[2][i + 1] = e3[i];
+                    dt.Rows[3][i + 1] = d1[i];
+                    dt.Rows[4][i + 1] = d2[i];
+                    dt.Rows[5][i + 1] = t1[i];
+                    dt.Rows[6][i + 1] = t2[i];
+                    dt.Rows[7][i + 1] = T[i];
 
                 }
+              
+
                 dataGridView1.DataSource = dt;
                 dataGridView1.Invalidate();
                 tabControl1.SelectedTab = tabControl1.TabPages["TabPage2"];
+                
             }
         }
 
         //График
         private void button2_Click(object sender, EventArgs e)
         {
-            chart1.Series[0].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
             double x = 0;
+            chart1.Series[0].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            
             for (int i = 0; i < H*2+1; i++)
             {
                 double y = T[i];
                 chart1.Series[0].Points.AddXY(x, y);
                 x += 0.5;
             }
-
+            x = 0;
             chart2.Series[0].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-           
-            for (int i = 0; i < H * 2 + 1; i++)
+            
+            for (int i = 0; i < H * 2-1; i++)
             {
                 double y = t1[i];
                 chart2.Series[0].Points.AddXY(x, y);
                 x += 0.5;
             }
-
+            x = 0;
             chart2.Series[1].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            for (int i = 0; i < H * 2 + 1; i++)
+            for (int i = 0; i < H*2-1; i++)
             {
                 double y = t2[i];
                 chart2.Series[1].Points.AddXY(x, y);
